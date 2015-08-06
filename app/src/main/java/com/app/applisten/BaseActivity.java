@@ -47,10 +47,14 @@ public class BaseActivity extends Activity {
 
 
     public void onAppStart() {
+        //remove this toast
         Toast.makeText(getApplicationContext(), "App in foreground", Toast.LENGTH_LONG).show();
+        // your code
     }
 
     public void onAppPause() {
+        //remove this toast
         Toast.makeText(getApplicationContext(), "App in background", Toast.LENGTH_LONG).show();
+        // your code
     }
 }
